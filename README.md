@@ -4,7 +4,7 @@
 - [ ] The board must be run by a uController
 - [ ] The board must be powered off of a USB-C connector
 - [ ] The board must be able to generate a 3.3V single rail
-- [ ] The board must be debuggable via USB
+- [ ] The board must be debuggable via SWD and programmable via USB
 - [ ] The board shall have a square size, no bigger than 10x10cm
 - [ ] The board must contain a high resolution data converter
 - [ ] The board must be able to monitor multiple analog signals
@@ -16,3 +16,14 @@
 - [ ] The board shall have the capability of it being powered through a battery
 - [ ] The system’s overall power consumption shall be minimised
 - [ ] The board must have 4 layers
+
+## Components list
+- [ ] RP2040 - C2040 - ARM Cortex-M0 1@x4ch/12bit USB Host/Device 2 264KB 2 133MHz 30 2 QFN-56(7x7)  Microcontroller Units (MCUs/MPUs/SOCs) ROHS
+- [ ] AD7124-8 - NA - High Resolution S-D ADC
+- [ ] X322512MSB4SI - C9002 - 12MHz SMD Crystal Resonator 20pF ±10ppm ±30ppm -40℃~+85℃ SMD3225-4P  Crystals ROHS
+- [ ] AMS1117-3.3 - C6186 - 72dB@(120Hz) 1A 1.3V@(800mA) Fixed 3.3V~3.3V Positive 1 SOT-223  Linear Voltage Regulators (LDO) ROHS
+- [ ] TYPE-C-31-M-12 - C165948 - 250mA 1 16 Female Type-C SMD  USB Connectors ROHS
+- [ ] W25Q128JVSIQ - C97521 - SOIC-8_208mil  NOR FLASH ROHS
+- [ ] ALS-PT19-315C/L177/TR8 - C146233 - 1.7*0.8*0.6mm  Ambient Light Sensors ROHS
+- [ ] TS-1187A-B-A-B - C318884 - No NO 50mA 5.1mm 100mΩ 100000 160gf 12V -30℃~+85℃ 5.1mm 1.5mm Golden Round Button Brick nogging SPST SMD  Tactile Switches ROHS
+- [ ] CMFB103F3950FANT - C51597 - 10kΩ -40℃~+120℃ ±1% 3950K ±1% 0805  NTC Thermistors ROHS
